@@ -1,0 +1,52 @@
+# === Node / React padrão ===
+node_modules/
+build/
+dist/
+.cache/
+.tmp/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Configurações locais ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Sistema operacional ===
+.DS_Store
+Thumbs.db
+
+# === IDEs ===
+.vscode/
+.idea/
+*.iml
+
+# === Testes / Cobertura ===
+coverage/
+*.lcov
+
+# === Arquivos temporários ===
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# === Outras pastas desnecessárias ===
+out/
+bin/
+logs/
+eslintcache
+
+# === Git / Scripts temporários ===
+*.rej
+*.patch
+*.pid
+*.seed
+*.tgz
+*.gz
